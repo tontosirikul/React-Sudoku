@@ -1,8 +1,13 @@
 .App {
-  width: 600px;
+  width: 50%;
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
+}
+.App:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .cell {
